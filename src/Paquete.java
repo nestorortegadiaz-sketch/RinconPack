@@ -56,6 +56,10 @@ public class Paquete {
         return destino;
     }
 
+    public double getPeso() {
+        return peso;
+    }
+
    
 
 }
