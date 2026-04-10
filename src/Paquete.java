@@ -48,6 +48,14 @@ public class Paquete {
         return "Paquete{" + "codigo=" + codigo + ", peso=" + peso + ", destino=" + destino + '}';
     }
 
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getDestino() {
+        return destino;
+    }
+
    
 
 }

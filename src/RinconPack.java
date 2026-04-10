@@ -14,7 +14,18 @@ public class RinconPack {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("paquete");
+        Almacen almacen = new Almacen();
+        Paquete paquete1 = new Paquete ("COD-01", 3, "Madrid");
+        Paquete paquete2 = new Paquete ("COD-02", 36, "Barcelona");
+        Paquete paquete3 = new Paquete ("COD-03", 37, "Madrid");
+        
+        
+        almacen.recepcionarPaquete(paquete1, 0, 2);
+        almacen.recepcionarPaquete(paquete2, 1, 2);
+         almacen.recepcionarPaquete(paquete3, 2, 2);
+         
+         almacen.enviarCamion(1, 2);
+         almacen.enviarCamion(2, 2);
     }
     
 }
